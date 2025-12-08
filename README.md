@@ -1,3 +1,3 @@
 # CustomMsg
-A simple custom /msg plugin for servers
-Theres no config so edit the code itself *(sorry)*
+- A simple custom /msg plugin for servers
+- Theres no config currently so edit the code itself *(sorry)*

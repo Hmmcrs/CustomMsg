@@ -1,0 +1,14 @@
+name: CustomMsg
+main: me.meoweh.msg.CustomMsg
+version: 1.0.0
+api-version: '1.21'
+author: Meoweh
+description: LootvoidRM
+commands:
+  msg:
+    description: Send a private message to a player
+    usage: "/<command> <player> <message>"
+    permission: custommsg.use
+permissions:
+  custommsg.use:
+    default: true

@@ -13,7 +13,8 @@ import java.util.*;
 // used on LootvoidRM //
 
 /* Note that this wont work on servers like minehut
-that already have their own registered global /msg */
+unless you change the command since minehut
+already has their own registered global /msg */
 
 public final class MsgPlugin extends JavaPlugin {
 
@@ -84,3 +85,4 @@ public final class MsgPlugin extends JavaPlugin {
         }
     }
 }
+

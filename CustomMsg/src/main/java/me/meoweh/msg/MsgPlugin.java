@@ -26,7 +26,7 @@ public final class MsgPlugin extends JavaPlugin {
 
     private void registerMsgCommand() {
         PrivateMsgCommand cmd = new PrivateMsgCommand();
-        getCommand("msg").setExecutor(cmd);
+        getCommand("msg").setExecutor(cmd); // Change "msg" to a prefered command name (e.g w, whisper, tell, message, dm, etc)
     }
 
     // Handles /msg <player> <message> //
@@ -85,4 +85,5 @@ public final class MsgPlugin extends JavaPlugin {
         }
     }
 }
+
 

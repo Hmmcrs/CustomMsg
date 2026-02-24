@@ -9,8 +9,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 import java.util.*;
 
 // Simple custom /msg plugin //
-// by Meoweh/Nyx/QwQ //
-// used on LootvoidRM //
 
 /* Note that this wont work on servers like minehut
 unless you change the command since minehut
@@ -85,5 +83,6 @@ public final class MsgPlugin extends JavaPlugin {
         }
     }
 }
+
 
 

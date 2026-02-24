@@ -30,6 +30,8 @@ public final class MsgPlugin extends JavaPlugin {
     // Handles /msg <player> <message> //
     static final class PrivateMsgCommand implements CommandExecutor {
 
+
+    // Error and correct usage messages //
         @Override
         public boolean onCommand(CommandSender sender,
                                  Command command,
@@ -83,6 +85,7 @@ public final class MsgPlugin extends JavaPlugin {
         }
     }
 }
+
 
 
 
